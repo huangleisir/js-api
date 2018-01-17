@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- Redis服务器IP地址 -->
+	<Ip>10.101.130.212</Ip>
+	<!-- Redis服务器端口 -->
+	<Port>6379</Port>
+	<!-- 最大连接数 -->
+	<MaxTotal>10</MaxTotal>
+	<!-- 最大空闲连接数 -->
+	<MaxIdle>5</MaxIdle>
+	<!-- 获取连接时的最大等待毫秒数(如果设置为阻塞时BlockWhenExhausted),如果超时就抛异常, 小于零:阻塞不确定的时间 -->
+	<MaxWaitMillis>-1</MaxWaitMillis>
+	<!-- 在获取连接的时候检查有效性 -->
+	<TestOnBorrow>false</TestOnBorrow>
+</config>

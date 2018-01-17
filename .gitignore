@@ -1,0 +1,19 @@
+*.class
+.svn/
+*.iml
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.cfg
+*.iml
+*..gitignore
+# Eclipse project files
+.project
+.classpath
+.settings
+bin/
+target/
+/target/
+
